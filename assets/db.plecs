@@ -1,0 +1,9 @@
+ContainedBy = Final
+
+Sword = Item, Attacks, TakesDamage
+
+WoodenSword : Sword
+
+with (ContainedBy, Player) {
+  WoodenSword
+}
